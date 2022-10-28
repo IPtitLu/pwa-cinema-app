@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Robot-Medium', sans-serif;
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+
+    margin-bottom: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+.button {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #ec1414d9;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.button:hover,.button:active,.button:focus {
+    background: #d71111d4;
+}
+
+#film-card {
+    padding: 0!important;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0;
+    border: 1px solid #80808000;
+    padding: 20px;
+    background-color: rgb(244, 244, 244);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img > img {
+    height: 200px;
+    width: auto;
+}
