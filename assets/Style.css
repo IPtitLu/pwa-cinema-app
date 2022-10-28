@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 100%;
     height: auto;
     background-color: rgb(255, 255, 255);
 }
@@ -77,8 +77,15 @@ body {
     background: #d71111d4;
 }
 
+.film-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #film-card {
     padding: 0!important;
+    width: 30%;
 }
 
 .card {
