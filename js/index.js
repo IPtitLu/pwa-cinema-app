@@ -7,7 +7,7 @@ let filmData = [];
 
 const getFilms = async () => {
   filmData = await fetch(
-    `https://api.themoviedb.org/3/search/movie?api_key=ed82f4c18f2964e75117c2dc65e2161d&query=${recherche}`
+    `https://api.themoviedb.org/3/search/movie?api_key=62eec8dcad2c6fda69b92e74483e93cc&query=${recherche}`
   ).then((res) => res.json());
 };
 
