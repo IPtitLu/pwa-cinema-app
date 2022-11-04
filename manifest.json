@@ -1,0 +1,16 @@
+{
+  "name": "Netflux",
+  "short_name": "Nf",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/Icons/netflux.svg",
+      "type": "svg",
+      "sizes": "60x60"
+    }
+  ]
+}
