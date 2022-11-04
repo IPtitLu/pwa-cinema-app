@@ -1,5 +1,5 @@
-## pwa-cinema-app
+# pwa-cinema-app - Netflux
 
-# Lien Netlify
+## Lien Netlify
 
 https://netflux-pwa.netlify.app/
